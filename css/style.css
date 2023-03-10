@@ -353,8 +353,8 @@ body{
 
 .text{
     margin-bottom: 10px;
-    border-color: #eeeeee;
-    padding: 10px;
+    border: 1px solid #eeeeee;
+    padding: 8px 10px;
     width: 365px;
 }
 
