@@ -16,6 +16,8 @@
 }
 
 .header{
+    position: fixed;
+    z-index: 1;
     background: #333;
     border-bottom: 1px solid #444;
     max-height: 60px;
@@ -23,6 +25,10 @@
 
 .width{
     width: 1348px;
+}
+
+.mainbody{
+    padding-top: 60px;
 }
 
 .headerlogo{
@@ -96,7 +102,7 @@
 }
 
 .headerset{
-    top: 20px;
+    top: 100px;
 }
 
 .headertext{
@@ -130,6 +136,19 @@
     color: #fff;
     font-size: 14px;
     font-weight: 500;
+}
+
+.menucheck:hover{
+    background: #222;
+    color: #fff;
+}
+
+.make{
+    margin: 10px 0px 0px 100px;
+}
+
+.view:hover{
+    box-shadow: 0px 15px 15px 0px rgb(245 63 81 / 20%);
 }
 
 .headermacro{
@@ -179,6 +198,10 @@
     padding: 0 15px;
 }
 
+.navhome:hover{
+    color: #f42f2c;
+}
+
 .date{
     margin: 20px 0px;
     background-color: #000;
@@ -199,8 +222,8 @@
     font-weight: 600;
 }
 
-.navtext{
-    width: 100%;
+.blogh1:hover{
+    color: #f42f2c;
 }
 
 .parttwo{
@@ -305,6 +328,10 @@ body{
     font-weight: 700;
 }
 
+.red{
+    color: #f42f2c;
+}
+
 .pricepara{
     color: #777;
     font-size: 16px;
@@ -320,16 +347,21 @@ body{
 }
 
 .partset{
-    padding-top: 250px;
+    padding-top: 130px;
 }
 
 .padding{
     padding-left: 90px;
 }
 
+.align{
+    padding-top: 20px;
+    justify-content: center;
+}
+
 .setthree{
     font-size: 40px;
-    line-height: 1.2em !important;
+    line-height: 1.2em;
     font-weight: 600;
     width: 540px;
 }
@@ -463,8 +495,8 @@ body{
 }
 
 .bottom3{
-    background: #222;
-    padding: 15px 0px;
+    background: #222;  
+    padding: 20px 0px 10px 0px;
 }
 
 .bottompara{
@@ -479,5 +511,5 @@ body{
 }
 
 .bottomrow{
-    width: 1010px;
+    width: 1125px;
 }
