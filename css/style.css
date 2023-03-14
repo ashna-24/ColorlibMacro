@@ -126,7 +126,7 @@
 }
 
 .partone{
-    padding: 90px 0px 145px 0px;
+    padding: 90px 110px 145px 110px;
 }
 
 .check{
@@ -157,6 +157,10 @@
 
 .backgroundimg{
     width: 1348px;
+}
+
+.main{
+    width: 1349px;
 }
 
 .contextdata{
@@ -228,7 +232,7 @@
 
 .parttwo{
     background: #f9f9ff;
-    padding: 120px 0;
+    padding: 120px 105px;
 }
 
 .question{
@@ -242,11 +246,21 @@
     margin-bottom: 10px;
 }
 
+::selection {
+    background-color: #f42f2c;
+    color: #fff;
+}
+
+.choice{
+    padding-top: 7px;
+}
+
 .quespara{
     font-size: 16px;
     font-weight: 300;
     color: #777;
     line-height: 1.625em;
+    margin: 0px 195px;
 }
 
 .all{
@@ -352,6 +366,10 @@ body{
 
 .padding{
     padding-left: 90px;
+}
+
+input:focus{
+    outline: none;
 }
 
 .align{
