@@ -453,7 +453,7 @@ input:focus{
 }
 
 .sectiongap{
-    padding: 120px 0px;
+    padding: 120px 96px;
 }
 
 .hours{
@@ -514,7 +514,7 @@ input:focus{
 
 .bottom3{
     background: #222;  
-    padding: 20px 0px 10px 0px;
+    padding: 20px 95px 10px 95px;
 }
 
 .bottompara{
@@ -522,6 +522,7 @@ input:focus{
     font-size: 15px;
     font-weight: 300;
     line-height: 1.625em;
+    padding-top: 5px;
 }
 
 .right{
@@ -530,4 +531,17 @@ input:focus{
 
 .bottomrow{
     width: 1125px;
+}
+
+#bottomicon:hover{
+    background-color: #f42f2c !important;
+    color: #000 !important;
+    cursor: pointer;
+}
+
+.sticky {
+    position: fixed;
+    top: 60px;
+    background-color:red;
+    left: calc((100% - 100px)/2);
 }
